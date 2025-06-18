@@ -53,5 +53,3 @@ else
     echo -e "MYSQL root password is already setup.. $Y Skipping $N" | tee -a $LOG_FILE 
 fi 
 
-#first time it doesnot worked in gitbash, when i pushed the file to main, showed 0 lines of code 
-#But when i commit in VS Code, it updated. What happened here exactly?
