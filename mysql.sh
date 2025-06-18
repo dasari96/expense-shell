@@ -13,7 +13,7 @@
  N="\e[0m"
 
  CHECK_ROOT(){
-    if [ %USERID -ne 0]
+    if [ %USERID -ne 0 ]
     then 
         echo -e "$R Please run this script with root privileges $N" | tee -a $LOG_FILE
         exit 1
@@ -21,7 +21,7 @@
  }
 
  VALIDATE(){
-    if [ $1 -ne 0]
+    if [ $1 -ne 0 ]
     then 
         echo -e "$2 is ... $R FAILED $N" | tee -a $LOG_FILE
         exit 1
